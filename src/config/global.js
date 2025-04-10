@@ -166,21 +166,84 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Anatomía del calzado',
+      referencia:
+        'La Horma de tu Negocio (2022). Partes del Calzado. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=FaMKTkcDKbo',
+    },
+    {
+      tema: 'Tipologías de calzado',
+      referencia:
+        'Motawi, W. (2018). Cómo se hacen los zapatos: Una mirada al interior de una verdadera fábrica de calzado deportivo.',
+      tipo: 'Capítulo 1',
+      link:
+        'https://www.google.com.pe/books/edition/C%C3%B3mo_se_hacen_los_zapatos/yYwpEAAAQBAJ?hl=es-419&gbpv=0',
+    },
+    {
+      tema: 'Fases del proceso productivo de calzado',
+      referencia:
+        'Centrocalzado. (2012). Proceso para la fabricación del calzado',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qY6Hl5Gx2HA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cuero',
+      significado:
+        'material natural obtenido de la piel de animales, principalmente vacuno, que se somete a un proceso de curtido para hacerlo resistente y flexible. Se utiliza en la fabricación de calzado por su durabilidad, confort y capacidad de adaptarse a la forma del pie.',
+    },
+    {
+      termino: 'Horma',
+      significado:
+        'molde con la forma del pie que se usa en la fabricación de calzado para darle estructura y garantizar un ajuste adecuado. Puede estar hecha de madera, plástico o metal y varía según el tipo de calzado y su finalidad.',
+    },
+    {
+      termino: 'Patronaje',
+      significado:
+        'es el proceso de diseño y creación de patrones que sirven como base para cortar las piezas de un calzado. A través del patronaje, se definen las formas y dimensiones de los componentes que conformarán el zapato.',
+    },
+    {
+      termino: 'Sintético',
+      significado:
+        'material artificial fabricado a partir de polímeros como el PVC o el poliuretano, diseñado para imitar características del cuero o de otros materiales naturales. Se usa en calzado por su costo accesible, variedad de diseños y facilidad de mantenimiento.',
+    },
+    {
+      termino: 'Textil',
+      significado:
+        'material compuesto por fibras naturales (algodón, lino, lana) o sintéticas (poliéster, nylon) que se utiliza en la fabricación de calzado, especialmente en modelos deportivos y casuales, debido a su ligereza y transpirabilidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arias Navarro, A., & Acevedo Ramírez, G. (1998). Patronaje, modelado y escalado de calzado.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bossan, M. J. (2007). El arte del zapato (S. Caballero, Trad.). Edimat Libros.',
+      link: '',
+    },
+    {
+      referencia:
+        'García Macias, A. (1957). Arte y técnica del patronaje y modelaje del calzado. Editorial Dossat.',
+      link: '',
+    },
+    {
+      referencia:
+        'Motawi, W. M., & Motawi, A. M. (2021). Patronaje de calzado y diseño de hormas. Wade Motawi.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vass, L., & Molnár, M. (1999). Zapatos de caballero hechos a mano. Konemann.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zambrano, L. C. (1990). Bloque modular 1: Preparación de avíos para calzado. Módulo instruccional 1: Estructura del pie – Proporciones y medidas. CEFAD, Regional Bogotá.',
       link: '',
     },
   ],
@@ -189,14 +252,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -204,9 +267,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Elkin Darío Fontecha Pard',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
       ],
     },
@@ -214,34 +284,69 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Diana Milena Picón Rincón',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Regional Antioquia - Centro de Formación Centro de Servicios de Salud.',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Cielo Damaris Angulo Rodriguez',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario.',
         },
       ],
     },

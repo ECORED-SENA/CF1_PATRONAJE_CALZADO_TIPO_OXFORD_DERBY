@@ -334,8 +334,8 @@
             h4 <em>Hallux Valgus</em> (Juanete)
             p El dedo gordo se inclina hacia el segundo dedo, formando una protuberancia ósea en la base del dedo. Puede causar dolor, inflamación y enrojecimiento. También puede derivar en deformidades como dedos en garra o superposición de dedos.
 
-
-    .titulo-tres.mb-4(data-aos="flip-up").pt-4
+    br
+    .titulo-tres.mb-4(data-aos="flip-up")
       h4(data-aos="fade-up") Clasificación según la pisada
 
     p La pisada se define por la forma en que el pie entra en contacto con el suelo al caminar o correr, influyendo en la estabilidad y distribución del peso.
@@ -369,6 +369,8 @@
             h4.mb-3.text-white Pisada supinadora
             p.mb-0.text-white El pie se inclina hacia afuera al caminar. Es más frecuente en personas con pie cavo y puede generar problemas en tobillos y rodillas.
 
+
+    
 
 </template>
 
