@@ -265,6 +265,148 @@
           .col-lg-4
             figure
               img(src="@/assets/curso/tema3/18.png", alt="").mb-4.mb-lg-0
+
+    .titulo-tres.mb-4(data-aos="flip-up")
+      h4(data-aos="fade-up") Máquinas de coses utilizadas
+
+    p.mb-5 En la fabricación del calzado se emplean diferentes tipos de máquinas de coser, cada una diseñada para cumplir funciones específicas según la estructura y material del calzado.
+    
+
+    TabsC.color-acento-contenido.mb-5
+      .p-3.p-md-4(titulo="Máquinas de codo")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0.order-2
+            h4 Máquinas de codo
+            p Facilitan la costura en zonas curvas del calzado, permitiendo un mejor ajuste en áreas difíciles de alcanzar.
+          .col-md-6.order-1.d-none.d-md-block
+            figure.p-4
+              img(src='@/assets/curso/tema3/19.png', alt='Máquina de codo', style='max-width: 520px;')
+
+      .p-3.p-md-4(titulo="Máquinas de columna o poste")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0.order-2
+            h4 Máquinas de columna o poste
+            p Brindan mayor maniobrabilidad en materiales rígidos, lo que facilita el ensamblaje en calzado estructurado.
+          .col-md-6.order-1.d-none.d-md-block
+            figure.p-4
+              img(src='@/assets/curso/tema3/20.png', alt='Máquina de columna', style='max-width: 520px;')
+
+      .p-3.p-md-4(titulo="Máquinas de doble aguja")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0.order-2
+            h4 Máquinas de doble aguja
+            p Generan costuras reforzadas, especialmente utilizadas en calzado industrial y deportivo para mayor resistencia.
+          .col-md-6.order-1.d-none.d-md-block
+            figure.p-4
+              img(src='@/assets/curso/tema3/21.png', alt='Máquina de doble aguja', style='max-width: 520px;')
+              figcaption.text-center Imagen tomada de: Maquina de poste dos agujas. (s. f.)
+
+      .p-3.p-md-4(titulo="Máquina de costura sobrehilada")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0.order-2
+            h4 Máquina de costura sobrehilada
+            p Realiza costuras en zigzag o sobrehilado para unir la capellada con la plantilla o reforzar los bordes del corte mediante la inserción de un cordón o pita.
+          .col-md-6.order-1.d-none.d-md-block
+            figure.p-4
+              img(src='@/assets/curso/tema3/22.png', alt='Máquina de costura sobrehilada', style='max-width: 520px;')
+              figcaption.text-center Imagen tomada de: Maquina sobrehiladora. (s. f.)
+
+    Separador
+
+    #t_3_6.titulo-segundo.color-acento-contenido
+      h2 3.6  Montaje del calzado
+
+    p.mb-5 El montaje es la fase en la que la capellada se ajusta a la horma para darle la forma final al zapato y unirla a la suela. Existen distintos métodos de montaje según el tipo de calzado y el nivel de flexibilidad requerido.
+
+    
+
+    #SliderA-2.bg-full-width.bg-fondo-slider(data-aos="fade-down").mb-5
+      .p-4.p-md-5       
+        .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
+          SlyderA(tipo='b')
+            .row.pt-lg-4.align-items-center
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Montaje Strobel
+                  p.mt-4 Utilizado en calzado deportivo, consiste en coser la capellada a una plantilla flexible antes de añadir la suela, proporcionando mayor comodidad y flexibilidad.
+              .col-lg-4
+                img(src='@/assets/curso/tema3/23.png', style="max-width: 479px").mx-auto
+
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Montaje String
+                  p.mt-4 Variante del Strobel en la que la capellada se une a la plantilla mediante un cordón pasado a lo largo de su contorno, lo que otorga mayor resistencia y flexibilidad.
+              .col-lg-4
+                img(src='@/assets/curso/tema3/24.png', style="max-width: 479px").mx-auto
+
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Montaje con pegado
+                  p.mt-4 Se adhiere la capellada a la suela utilizando pegamento de alta resistencia, asegurando una fijación firme y duradera.
+              .col-lg-4
+                img(src='@/assets/curso/tema3/25.png', style="max-width: 479px").mx-auto
+
+    .titulo-tres.mb-4(data-aos="flip-up")
+      h4(data-aos="fade-up") Proceso de montaje paso a paso
+
+    p.mb-5 El montaje del calzado sigue una serie de etapas que garantizan la correcta fijación de la capellada a la suela, asegurando la durabilidad y comodidad del producto.
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-3
+        .bg-color-2.h-100
+          .bg-color-11.px-4.px-lg-5.py-3
+            h4.mb-0.text-center.text-white Colocación de <br>la horma
+          p.mb-0.p-4 La capellada se ajusta a una horma con la forma deseada para darle estructura.
+
+      .col-lg-3
+        .bg-color-2.h-100
+          .bg-color-11.px-4.px-lg-5.py-3
+            h4.mb-0.text-center.text-white Tensado y <br>fijación
+          p.mb-0.p-4 Se estiran las pieza para eliminar arrugas y se fijan con clavos o adhesivos.
+      .col-lg-3
+        .bg-color-2.h-100
+          .bg-color-11.px-4.px-lg-5.py-3
+            h4.mb-0.text-center.text-white Unión de <br>la suela
+          p.mb-0.p-4 La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.,
+
+      .col-lg-3
+        .bg-color-2.h-100
+          .bg-color-11.px-4.px-lg-5.py-3
+            h4.mb-0.text-center.text-white Prensado y moldeado final
+          p.mb-0.p-4 Se aplica calor y presión para mejorar la adherencia y dar el acabado final,
+
+    Separador
+
+    #t_3_7.titulo-segundo.color-acento-contenido
+      h2 3.7  Acabado y control de calidad
+
+    p.mb-5 Esta fase final garantiza que el calzado cumpla con los estándares de calidad y tenga un acabado estético adecuado antes de su distribución.
+    
+    .bg-color-8.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/26.png', alt='')
+        .col-lg
+          .p-4
+          ul.lista-ul--color.color-secundario
+              li 
+                i.fas.fa-cut
+                | #[strong Pulido y limpieza.] Eliminación de restos de pegamento e imperfecciones para mejorar la presentación. 
+              li 
+                i.fas.fa-cut
+                | #[strong Verificación de costuras y adherencia.] Inspección de las uniones entre suela y capellada para evitar desprendimientos. 
+              li 
+                i.fas.fa-cut
+                | #[strong Pruebas de flexión y resistencia.] Evaluación de la durabilidad del calzado simulando su uso real. 
+
+              li 
+                i.fas.fa-cut
+                | #[strong Empaque y etiquetado.] Colocación de etiquetas y empaques antes del almacenamiento y distribución.
+
+    
 </template>
 
 <script>
