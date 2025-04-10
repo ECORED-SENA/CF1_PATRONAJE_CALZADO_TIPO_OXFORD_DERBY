@@ -66,7 +66,7 @@
 .titulo-principal.color-acento-contenido
   .titulo-principal__numero span, 
   .banner-interno__titulo__icono i
-    color: $white !important
+    color: $color-sistema-texto !important
 
 figcaption
   font-weight: normal
@@ -90,16 +90,19 @@ figcaption
     background-image: url("../assets/bg/bg1.png") !important
     background-position: bottom
   &-2
-    //background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-3
-    //background-image: url("../assets/bg/bg3.png") !important
+    background-image: url("../assets/bg/bg3.png") !important
     background-position: top
   &-4
-    //background-image: url("../assets/bg/bg4.png") !important
+    background-image: url("../assets/bg/bg4.png") !important
     background-position: bottom
   &-5
-    //background-image: url("../assets/bg/bg5.png") !important
+    background-image: url("../assets/bg/bg5.png") !important
+    background-position: top
+  &-6
+    background-image: url("../assets/bg/bg6.png") !important
     background-position: bottom
   &-slider
     //background-image: url("../assets/bg/bg-slider.png") !important
@@ -110,17 +113,26 @@ figcaption
   &-1
     background-color: #ACBAAE !important
   &-2
-    background-color: #1E29A8 !important
+    background-color: #EBEEEB !important
   &-3
-    background-color: #E8F5D5 !important
+    background-color: #F6E15C !important
   &-4
-    background-color: #E8EAFD !important
+    background-color: #FDF9DE !important
   &-5
     background-color: #FAEFA0 !important
   &-6
-    background-color: #FDFAE6 !important
+    background-color: #EBEBEB !important
   &-7
-    background-color: #FCAD53 !important
+    background-color: #D8CABD !important
+  &-8
+    background-color: #EFE9E4 !important
+  &-9
+    background-color: #CDCDCD !important
+  &-10
+    background-color: #EBEBEB !important
+  &-11
+    background-color: #2F5235 !important
+    
   
   &-white
     background-color: white !important
@@ -164,26 +176,26 @@ $custom-card-img-height: 205px
 .titulo-tres
   position: relative
   background: $color-acento-contenido
-  /* border-radius: 8px */
+  border-radius: 8px
   display: inline-block
   padding: 0.5rem 1.4rem 0.5rem 80px
 
   h3, h4
     margin: 0
     line-height: 110% !important
-    color: white !important
+    color: black !important
     @media screen and (max-width: $bp-max-sm)
       font-size: 0.99rem
 
   &::after
     content: ''
     position: absolute
-    bottom: -12px
+    bottom: 0px
     left: 0
     width: 100%
     height: 67px
     transform: translateX(8px)
-    //background: url('../assets/bullets/icon1.svg') transparent no-repeat bottom left
+    background: url('../assets/bullets/icon1.svg') transparent no-repeat bottom left
 
 /*Componets custom*/
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,
@@ -260,14 +272,16 @@ $custom-card-img-height: 205px
    &__btn
      width: 20%
 
+.tarjeta.acordeonA
+  background-color: #CDCDCD
 
 .acordion__accion__btn--a
-  background-color: #F13C0E !important
+  background-color: $color-acento-botones !important
   i
     color: white !important
 
 .acordion__activo
-  background-color: #FCF2CE !important
+  background-color: #EFE9E4 !important
 
 .tabs-b__tab 
   background-color: #E8F5D5;
@@ -291,3 +305,31 @@ $custom-card-img-height: 205px
   border-top-left-radius: 16px !important
   border-top-right-radius: 16px !important
 
+.tabs-c__header
+  margin-bottom: 0px !important
+.tabs-c__content-item
+  background-color: #E8E8E8 !important
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #2F5235 !important
+    color: white !important
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
