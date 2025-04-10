@@ -198,8 +198,73 @@
         figure
           img(src="@/assets/curso/tema3/16.png", alt="").mb-4.mb-lg-0
     
-    
-      
+    Separador
+
+    #t_3_4.titulo-segundo.color-acento-contenido
+      h2 3.4  Armado del calzado
+
+    p.mb-5 El armado es el proceso en el que se ensamblan las distintas partes de la capellada antes de la costura. Esta etapa es fundamental para garantizar la estabilidad y durabilidad del calzado.
+
+
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-8
+        .row.align-items-center.justify-content-center
+          .col-lg-6
+            figure
+              img(src="@/assets/curso/tema3/17.png", alt="").mb-4.mb-lg-0
+          .col-lg-6
+            .row.justify-content-center.align-items-stretch.mb-4
+              .col-lg
+                .tarjeta.bg-color-13.h-100
+                  .bg-color-12.px-4.px-lg-5.py-3.rounded-top
+                    h4.mb-0.text-center Pegado provisional
+                  p.mb-0.p-4 Se usa adhesivo temporal para posicionar las piezas antes de coserlas.
+            
+            .row.justify-content-center.align-items-stretch
+              .col-lg
+                .tarjeta.bg-color-8.h-100
+                  .bg-color-7.px-4.px-lg-5.py-3.rounded-top
+                    h4.mb-0.text-center Unión de refuerzos y forros
+                  p.mb-0.p-4 Se agregan materiales internos para dar estructura y mejorar la durabilidad.
+
+    Separador
+
+    #t_3_5.titulo-segundo.color-acento-contenido
+      h2 3.5  Costura del calzado
+
+    p.mb-5 La costura es una etapa esencial en la fabricación del calzado, ya que une las piezas de la capellada, proporcionando forma y resistencia. Existen diferentes tipos de costura según el material y la funcionalidad requerida.
+
+
+    .bg-full-width.bg-fondo-8.mb-5
+      .p-4.p-md-5
+        .row.align-items-center.justify-content-center
+
+          .col-lg-6
+            .row.justify-content-center.align-items-stretch.mb-4
+              .col-lg
+                .tarjeta.bg-color-14.h-100.box-shadow
+                  .bg-color-1.px-4.px-lg-5.py-3.rounded-top
+                    h4.mb-0.text-center Costura simple
+                  p.mb-0.p-4 Unión de dos piezas con una línea recta de puntadas, utilizada en estructuras básicas.
+            
+            .row.justify-content-center.align-items-stretch.mb-4
+              .col-lg
+                .tarjeta.bg-color-14.h-100.box-shadow
+                  .bg-color-1.px-4.px-lg-5.py-3.rounded-top
+                    h4.mb-0.text-center Costura doble (doble pespunte)
+                  p.mb-0.p-4 Refuerzo adicional para unir materiales gruesos, mejorando la resistencia y durabilidad.
+
+            .row.justify-content-center.align-items-stretch
+              .col-lg
+                .tarjeta.bg-color-14.h-100.box-shadow
+                  .bg-color-1.px-4.px-lg-5.py-3.rounded-top
+                    h4.mb-0.text-center Costura en zigzag
+                  p.mb-0.p-4 Aporta mayor elasticidad en materiales sintéticos y textiles, evitando rupturas por tensión.
+
+
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema3/18.png", alt="").mb-4.mb-lg-0
 </template>
 
 <script>
