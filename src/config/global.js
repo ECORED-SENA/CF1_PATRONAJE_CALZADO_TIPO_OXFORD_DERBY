@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Aspectos técnicos para el patronaje de calzado',
+    Description:
+      'El componente formativo Aspectos técnicos para el patronaje de calzado, proporciona conocimientos sobre hormas, tipos de patrones, normas de diseño, materiales, estructura y partes del calzado, variaciones según parámetros técnicos, fases de fabricación, ubicación de líneas guía en la horma y estructura anatómica del pie. Se estudiarán sistemas de medidas y adaptaciones para comprender la elaboración de patrones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Anatomía del calzado',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Partes del calzado',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Función de cada parte en el diseño y confort',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Relación entre la anatomía del calzado y el pie',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +60,63 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Tipologías de calzado: características y usos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Clasificación del calzado según su uso',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Diferencias entre modelos de calzado',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Fases del proceso productivo de calzado',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Diseño y desarrollo del producto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Corte de materiales',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Desbaste',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Armado del calzado',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Costura del calzado',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Montaje del calzado',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: ' Acabado y control de calidad',
+            hash: 't_3_7',
+          },
+        ],
       },
     ],
     subMenu: [
