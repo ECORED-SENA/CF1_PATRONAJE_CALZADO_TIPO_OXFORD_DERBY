@@ -243,131 +243,131 @@
           h4.mb-4.text-center Ajuste y comodidad
           p.mb-0.text-center El forro, la plantilla y la lengüeta reducen la fricción y mejoran la experiencia del usuario.
 
-    Separador
+    //- Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3  Relación entre la anatomía del calzado y el pie
+    //- #t_1_3.titulo-segundo.color-acento-contenido
+    //-   h2 1.3  Relación entre la anatomía del calzado y el pie
 
-    p.mb-5 El calzado debe adaptarse a la estructura del pie para evitar molestias o problemas de salud. Para ello, es fundamental considerar:
+    //- p.mb-5 El calzado debe adaptarse a la estructura del pie para evitar molestias o problemas de salud. Para ello, es fundamental considerar:
 
     
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4
-        .tarjeta.bg-color-8.h-100
-          .bg-color-7.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Forma del pie
-          p.mb-0.p-4 Existen diferentes tipos de arcos (alto, medio y plano) que influyen en la elección del calzado.
+    //- .row.justify-content-center.align-items-stretch.mb-5
+    //-   .col-lg-4
+    //-     .tarjeta.bg-color-8.h-100
+    //-       .bg-color-7.px-4.px-lg-5.py-3.rounded-top
+    //-         h4.mb-0.text-center Forma del pie
+    //-       p.mb-0.p-4 Existen diferentes tipos de arcos (alto, medio y plano) que influyen en la elección del calzado.
 
-      .col-lg-4
-        .tarjeta.bg-color-10.h-100
-          .bg-color-9.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Movilidad y presión
-          p.mb-0.p-4 El diseño de la suela y la entresuela debe distribuir la presión de manera uniforme.
+    //-   .col-lg-4
+    //-     .tarjeta.bg-color-10.h-100
+    //-       .bg-color-9.px-4.px-lg-5.py-3.rounded-top
+    //-         h4.mb-0.text-center Movilidad y presión
+    //-       p.mb-0.p-4 El diseño de la suela y la entresuela debe distribuir la presión de manera uniforme.
 
-      .col-lg-4
-        .tarjeta.bg-color-2.h-100
-          .bg-color-1.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Tamaño y ajuste
-          p.mb-0.p-4 Un calzado inadecuado puede generar ampollas, juanetes o fatiga muscular.
+    //-   .col-lg-4
+    //-     .tarjeta.bg-color-2.h-100
+    //-       .bg-color-1.px-4.px-lg-5.py-3.rounded-top
+    //-         h4.mb-0.text-center Tamaño y ajuste
+    //-       p.mb-0.p-4 Un calzado inadecuado puede generar ampollas, juanetes o fatiga muscular.
     
 
-    p.mb-5 El estudio detallado de la anatomía del calzado es clave para la fabricación de productos que brinden comodidad, seguridad y funcionalidad, adaptándose a las necesidades del usuario, es por ello que es importante reconocer la estructura básica del pie.
+    //- p.mb-5 El estudio detallado de la anatomía del calzado es clave para la fabricación de productos que brinden comodidad, seguridad y funcionalidad, adaptándose a las necesidades del usuario, es por ello que es importante reconocer la estructura básica del pie.
 
-    .bg-full-width-2.bg-fondo-6
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.align-items-center.mb-5.pb-4
-          .col-lg-6
-            figure
-              img(src="@/assets/curso/tema1/11.png", alt="").mx-auto.d-block
+    //- .bg-full-width-2.bg-fondo-6
+    //-   .px-4.px-md-5.pb-md-3
+    //-     .row.justify-content-center.align-items-center.mb-5.pb-4
+    //-       .col-lg-6
+    //-         figure
+    //-           img(src="@/assets/curso/tema1/11.png", alt="").mx-auto.d-block
                   
 
-        .titulo-tres.mb-4(data-aos="flip-up")
-          h4(data-aos="fade-up") Clasificación según la forma del pie.
+    //-     .titulo-tres.mb-4(data-aos="flip-up")
+    //-       h4(data-aos="fade-up") Clasificación según la forma del pie.
 
-    p.mb-5 Los pies presentan variaciones en su forma y estructura, lo que permite clasificarlos según distintos criterios. Uno de los más utilizados es la longitud de los dedos, ya que influye en la distribución del peso y la estabilidad al caminar. A continuación, se describen las principales tipologías de pies según su forma.
+    //- p.mb-5 Los pies presentan variaciones en su forma y estructura, lo que permite clasificarlos según distintos criterios. Uno de los más utilizados es la longitud de los dedos, ya que influye en la distribución del peso y la estabilidad al caminar. A continuación, se describen las principales tipologías de pies según su forma.
     
 
-    figure.mb-5.pb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //- figure.mb-5.pb-4
+    //-   .video
+    //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .titulo-tres.mb-4(data-aos="flip-up")
-      h4(data-aos="fade-up") Clasificación según el tipo de arco plantar
+    //- .titulo-tres.mb-4(data-aos="flip-up")
+    //-   h4(data-aos="fade-up") Clasificación según el tipo de arco plantar
 
-    p.mb-5 El arco plantar es la curvatura ubicada en la parte interna del pie y desempeña un papel clave en la distribución del peso y la absorción del impacto al caminar o correr.
+    //- p.mb-5 El arco plantar es la curvatura ubicada en la parte interna del pie y desempeña un papel clave en la distribución del peso y la absorción del impacto al caminar o correr.
     
 
-    TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="Pie normal o arco medio")
-        .row.align-items-center
-          .col-md-6
-            figure.p-4
-              img(src='@/assets/curso/tema1/12.png', alt='', style='max-width: 520px;').mx-auto
-          .col-md-6.mb-4.mb-md-0
-            h4 Pie normal o arco medio
-            p Presenta una curvatura moderada. Distribuye bien el peso y la presión al caminar.
+    //- TabsC.color-acento-contenido.mb-5
+    //-   .py-3.py-md-4(titulo="Pie normal o arco medio")
+    //-     .row.align-items-center
+    //-       .col-md-6
+    //-         figure.p-4
+    //-           img(src='@/assets/curso/tema1/12.png', alt='', style='max-width: 520px;').mx-auto
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         h4 Pie normal o arco medio
+    //-         p Presenta una curvatura moderada. Distribuye bien el peso y la presión al caminar.
 
-      .py-3.py-md-4(titulo="Pie plano (arco bajo)")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            figure.p-4
-              img(src='@/assets/curso/tema1/13.png', alt='', style='max-width: 520px;')
-          .col-md-6
-            h4 Pie plano (arco bajo)
-            p La curvatura es mínima o inexistente, haciendo que casi toda la planta toque el suelo. Puede generar problemas de postura y dolor en pies o rodillas.
+    //-   .py-3.py-md-4(titulo="Pie plano (arco bajo)")
+    //-     .row.align-items-center
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure.p-4
+    //-           img(src='@/assets/curso/tema1/13.png', alt='', style='max-width: 520px;')
+    //-       .col-md-6
+    //-         h4 Pie plano (arco bajo)
+    //-         p La curvatura es mínima o inexistente, haciendo que casi toda la planta toque el suelo. Puede generar problemas de postura y dolor en pies o rodillas.
 
-      .py-3.py-md-4(titulo="Pie cavo (arco alto)")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            figure.p-4
-              img(src='@/assets/curso/tema1/14.png', alt='', style='max-width: 520px;')
-          .col-md-6
-            h4 Pie cavo (arco alto)
-            p El arco es muy pronunciado, dejando un espacio elevado entre la planta y el suelo. Puede causar mayor presión en el talón y metatarso, generando dolor o problemas de estabilidad.
+    //-   .py-3.py-md-4(titulo="Pie cavo (arco alto)")
+    //-     .row.align-items-center
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure.p-4
+    //-           img(src='@/assets/curso/tema1/14.png', alt='', style='max-width: 520px;')
+    //-       .col-md-6
+    //-         h4 Pie cavo (arco alto)
+    //-         p El arco es muy pronunciado, dejando un espacio elevado entre la planta y el suelo. Puede causar mayor presión en el talón y metatarso, generando dolor o problemas de estabilidad.
 
-      .py-3.py-md-4(titulo="<em>Hallux Valgus</em> (Juanete)")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            figure.p-4
-              img(src='@/assets/curso/tema1/15.png', alt='', style='max-width: 520px;')
-          .col-md-6
-            h4 <em>Hallux Valgus</em> (Juanete)
-            p El dedo gordo se inclina hacia el segundo dedo, formando una protuberancia ósea en la base del dedo. Puede causar dolor, inflamación y enrojecimiento. También puede derivar en deformidades como dedos en garra o superposición de dedos.
+    //-   .py-3.py-md-4(titulo="<em>Hallux Valgus</em> (Juanete)")
+    //-     .row.align-items-center
+    //-       .col-md-6.mb-4.mb-md-0
+    //-         figure.p-4
+    //-           img(src='@/assets/curso/tema1/15.png', alt='', style='max-width: 520px;')
+    //-       .col-md-6
+    //-         h4 <em>Hallux Valgus</em> (Juanete)
+    //-         p El dedo gordo se inclina hacia el segundo dedo, formando una protuberancia ósea en la base del dedo. Puede causar dolor, inflamación y enrojecimiento. También puede derivar en deformidades como dedos en garra o superposición de dedos.
 
-    br
-    .titulo-tres.mb-4(data-aos="flip-up")
-      h4(data-aos="fade-up") Clasificación según la pisada
+    //- br
+    //- .titulo-tres.mb-4(data-aos="flip-up")
+    //-   h4(data-aos="fade-up") Clasificación según la pisada
 
-    p La pisada se define por la forma en que el pie entra en contacto con el suelo al caminar o correr, influyendo en la estabilidad y distribución del peso.
+    //- p La pisada se define por la forma en que el pie entra en contacto con el suelo al caminar o correr, influyendo en la estabilidad y distribución del peso.
 
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .tarjeta.crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure3
-              img(src="@/assets/curso/tema1/16.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-white Pisada neutra
-            p.mb-0.text-white El peso se distribuye de manera equilibrada desde el talón hasta los dedos. Es la más eficiente y saludable.
+    //- .row.justify-content-center.mb-5
+    //-   .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    //-     .tarjeta.crd_hover_txt(data-aos="flip-left")
+    //-       .crd_hover_txt--img
+    //-         figure3
+    //-           img(src="@/assets/curso/tema1/16.png", alt="alt")
+    //-       .crd_hover_txt--body
+    //-         h4.mb-3.text-white Pisada neutra
+    //-         p.mb-0.text-white El peso se distribuye de manera equilibrada desde el talón hasta los dedos. Es la más eficiente y saludable.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .tarjeta.crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema1/17.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-white Pisada pronadora
-            p.mb-0.text-white El pie tiende a inclinarse hacia adentro al caminar. Es común en personas con pie plano y puede causar desgaste excesivo en la parte interna del calzado.
+    //-   .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    //-     .tarjeta.crd_hover_txt(data-aos="flip-left")
+    //-       .crd_hover_txt--img
+    //-         figure
+    //-           img(src="@/assets/curso/tema1/17.png", alt="alt")
+    //-       .crd_hover_txt--body
+    //-         h4.mb-3.text-white Pisada pronadora
+    //-         p.mb-0.text-white El pie tiende a inclinarse hacia adentro al caminar. Es común en personas con pie plano y puede causar desgaste excesivo en la parte interna del calzado.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .tarjeta.crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema1/18.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-white Pisada supinadora
-            p.mb-0.text-white El pie se inclina hacia afuera al caminar. Es más frecuente en personas con pie cavo y puede generar problemas en tobillos y rodillas.
+    //-   .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    //-     .tarjeta.crd_hover_txt(data-aos="flip-left")
+    //-       .crd_hover_txt--img
+    //-         figure
+    //-           img(src="@/assets/curso/tema1/18.png", alt="alt")
+    //-       .crd_hover_txt--body
+    //-         h4.mb-3.text-white Pisada supinadora
+    //-         p.mb-0.text-white El pie se inclina hacia afuera al caminar. Es más frecuente en personas con pie cavo y puede generar problemas en tobillos y rodillas.
 
 
     
