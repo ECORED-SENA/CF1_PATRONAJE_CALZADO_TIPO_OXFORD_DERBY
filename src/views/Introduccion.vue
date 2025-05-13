@@ -10,10 +10,15 @@
 
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
-        p.mb-5 El patronaje de calzado es un proceso fundamental en la fabricación de zapatos, ya que permite transformar un diseño en patrones precisos que servirán de base para su producción. Comprender los aspectos técnicos del patronaje es esencial para garantizar la calidad, comodidad y funcionalidad del calzado, asegurando un ajuste adecuado al pie y optimizando el proceso de fabricación.
         .row.mb-5
           .col-lg-9
-            .bg-color-1.mb-5(data-aos="fade-up")
+            .row
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/intro/3.png', alt='')
+              .col-lg-10
+                p.mb-5 El patronaje de calzado es un proceso fundamental en la fabricación de zapatos, ya que permite transformar un diseño en patrones precisos que servirán de base para su producción. Comprender los aspectos técnicos del patronaje es esencial para garantizar la calidad, comodidad y funcionalidad del calzado, asegurando un ajuste adecuado al pie y optimizando el proceso de fabricación.
+            .bg-color-1.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   figure

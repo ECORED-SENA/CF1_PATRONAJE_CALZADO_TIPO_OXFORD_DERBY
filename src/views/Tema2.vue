@@ -77,7 +77,7 @@
     .row.align-items-start.mb-5#aco-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema2/2.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema2/3.png", alt="").mb-4.mb-lg-0
       .col-lg-8
     
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonB")
@@ -99,42 +99,42 @@
           .div(titulo="Suela y amortiguación")
             ul.lista-ul--color
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Plana vs. Con tacón.] Los zapatos planos brindan estabilidad y comodidad, mientras que los de tacón realzan la postura y la elegancia.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Goma vs. Cuero.] Las suelas de goma ofrecen mayor tracción y amortiguación, mientras que las de cuero son más rígidas y elegantes, pero menos antideslizantes.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Flexible vs. Rígida.] Los tenis deportivos tienen suelas flexibles para amortiguar impactos, mientras que las botas de seguridad tienen suelas rígidas para mayor protección.
 
           .div(titulo="Protección y soporte")
             ul.lista-ul--color
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Bota vs. Zapato bajo.] Las botas cubren el tobillo o la pierna, brindando mayor protección, mientras que los zapatos bajos permiten mayor movilidad.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Punta de acero vs. Punta reforzada.] En el calzado industrial, las botas con punta de acero protegen contra impactos fuertes, mientras que las de punta reforzada ofrecen protección media sin el peso del acero.
           .div(titulo="Protección y soporte")
             ul.lista-ul--color
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Casual vs. Formal.] Los zapatos casuales priorizan la comodidad y versatilidad, mientras que los formales buscan elegancia y sofisticación.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle.bg-color-17
                 | #[strong Deportivo vs. Urbano.] Los tenis deportivos están diseñados para alto rendimiento, mientras que los urbanos combinan estilo y comodidad para el día a día.
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema2/3.png", alt="").mt-4.mt-lg-0
+          img(src="@/assets/curso/tema2/2.png", alt="").mt-4.mt-lg-0
 
 
-    .bg-full-width.bg-color-8
-      .px-4.px-md-5.py-4
+    .row.justify-content-center
+      .col-lg-10.tarjeta.p-4.bg-color-11
         .row.align-items-center
           .col-lg-auto
             img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col-lg.text-white
             p.mb-0 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión
     
 </template>
@@ -159,7 +159,7 @@ export default {
 <style lang="sass">
 
 .tarjeta.acordeonB
-  background-color: #ACBAAE !important
+  background-color: #D8CABD !important
 
 .acordion__accion__btn--a.acordeonB
   background-color: $color-acento-botones !important
@@ -167,5 +167,5 @@ export default {
     color: black !important
 
 .acordion__activo.acordeonB
-  background-color: #EBEEEB !important
+  background-color: #FBF3BE !important
 </style>

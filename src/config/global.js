@@ -14,10 +14,6 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
-      },
     ],
   },
   menuPrincipal: {
@@ -73,89 +69,43 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Materiales e insumos para calzado',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Cueros',
-            hash: 't_3_1',
-          },
-          {
-            numero: '3.2',
-            titulo: 'Sintéticos',
-            hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Textiles',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Suelas',
-            hash: 't_3_4',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
         titulo: 'Fases del proceso productivo de calzado',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '4.1',
+            numero: '3.1',
             titulo: 'Diseño y desarrollo del producto',
-            hash: 't_4_1',
+            hash: 't_3_1',
           },
           {
-            numero: '4.2',
+            numero: '3.2',
             titulo: 'Corte de materiales',
-            hash: 't_4_2',
+            hash: 't_3_2',
           },
           {
-            numero: '4.3',
+            numero: '3.3',
             titulo: 'Desbaste',
-            hash: 't_4_3',
+            hash: 't_3_3',
           },
           {
-            numero: '4.4',
+            numero: '3.4',
             titulo: 'Armado del calzado',
-            hash: 't_4_4',
+            hash: 't_3_4',
           },
           {
-            numero: '4.5',
+            numero: '3.5',
             titulo: 'Costura del calzado',
-            hash: 't_4_5',
+            hash: 't_3_5',
           },
           {
-            numero: '4.6',
+            numero: '3.6',
             titulo: 'Montaje del calzado',
-            hash: 't_4_6',
+            hash: 't_3_6',
           },
           {
-            numero: '4.7',
-            titulo: ' Acabado y control de calidad',
-            hash: 't_4_7',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Fichas técnicas de diseño',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '5.1',
-            titulo: 'Características de la ficha técnica de diseño',
-            hash: 't_5_1',
-          },
-          {
-            numero: '5.2',
-            titulo: 'Usos de la ficha técnica de diseño',
-            hash: 't_5_2',
+            numero: '3.7',
+            titulo: 'Acabado y control de calidad',
+            hash: 't_3_7',
           },
         ],
       },

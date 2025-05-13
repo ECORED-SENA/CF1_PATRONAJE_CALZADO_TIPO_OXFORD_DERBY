@@ -2,8 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 48%
-    right: 74%
+    top: 56%
+    right: 90%
     width: 98px
     z-index: 1
   &-2
@@ -13,13 +13,9 @@
     right: 10%
     width: 98px
     z-index: 1
-  &-3
-    animation: latido 2s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    right: 20%
-    width: 98px
-    z-index: 1
+
+.banner-principal__row .banner-principal__img
+  width: 383px !important
 
 @keyframes float1
   0%
@@ -48,9 +44,10 @@
     background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
   @media screen and (max-width: $bp-max-lg)
     background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+  @media screen and (max-width: $bp-min-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important   
@@ -113,6 +110,8 @@ figcaption
   &-9
     background-image: url("../assets/bg/bg9.svg") !important
     background-position: bottom
+  &-10
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(254, 252, 239, 1) 32%, rgba(254, 252, 239, 1) 68%, rgba(255, 255, 255, 1) 100%);
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -147,6 +146,14 @@ figcaption
     background-color: #FEFCEF !important
   &-14
     background-color: #FAFAFA !important
+  &-15
+    background-color: #D5DCD7
+  &-16
+    background-color: #D5DCD6
+  &-17
+    color: #2F5235 !important
+  &-18
+    background-color: #F7F4F2
   
   &-white
     background-color: white !important
@@ -228,8 +235,8 @@ $custom-card-img-height: 205px
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
     background-color: $color-acento-botones;
 .slyder-a__bullets__item 
-    background-color: #B2FAFC
-    border: 1px solid #B2FAFC;
+    background-color: #FCF5C6
+    border: 1px solid #FCF5C6;
 .slyder-a__bullets__item--active 
     background-color: $color-acento-contenido !important
     border-color: $color-acento-contenido !important;
@@ -289,7 +296,7 @@ $custom-card-img-height: 205px
      width: 20%
 
 .tarjeta.acordeonA
-  background-color: #CDCDCD
+  background-color: #D8CABD
 
 .acordion__accion__btn--a
   background-color: $color-acento-botones !important
@@ -297,7 +304,7 @@ $custom-card-img-height: 205px
     color: black !important
 
 .acordion__activo
-  background-color: #EFE9E4 !important
+  background-color: #FBF3BE !important
 
 .tabs-b__tab 
   background-color: #E8F5D5;
@@ -310,7 +317,10 @@ $custom-card-img-height: 205px
 
 
 .tabs-a__tab
-  background-color: #E8F5D5
+  background-color: #EFEAE5
+.tarjeta.color-acento-botones--borde
+  background-color: #FCF5CC
+  border: solid 4px #FCF5CC
 
 
 .rounded-bottom
@@ -351,8 +361,5 @@ $custom-card-img-height: 205px
         font-size: 0.85em
 
 
-.lista-ul--color li > i:first-of-type
-  color: $color-acento-botones !important
 
-.lista-ul--color.color-secundario li > i:first-of-type
-  color: $color-secundario !important
+
